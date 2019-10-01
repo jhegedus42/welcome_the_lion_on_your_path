@@ -1,5 +1,5 @@
 
-#This is a description on how I use docker to develop this repo.
+# This is a description on how I use docker to develop this repo.
 
 These script files to develop a docker image which can be used for
 Stan and related programming (it is supposed to be something that 
@@ -27,7 +27,12 @@ Ok, here it comes, an example workflow.
 Quickstart:
 
 - Install docker and git.
-> git clone git@github.com:jhegedus42/wellcome_the_lion_on_your_path.git
-> cd docker
-> docker pull jhegedus42/welcome_the_lion_on_your_path
-> ./start.sh
+
+Execute the following commands at shell:
+
+```bash
+$ git clone git@github.com:jhegedus42/wellcome_the_lion_on_your_path.git
+$ cd docker
+$ docker pull jhegedus42/welcome_the_lion_on_your_path
+$ ./start.sh
+```
