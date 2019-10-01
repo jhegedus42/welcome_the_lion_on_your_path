@@ -20,6 +20,9 @@ The good stuff:
  - `python`
  - `em++` 
  - `clang` 
+ - `vi`
+ - `vncserver`
+ - `ssh`
 
 This list should grow.
 
@@ -36,5 +39,33 @@ $ docker pull jhegedus42/welcome_the_lion_on_your_path
 $ ./start.sh
 $ tmux
 $ mc
-``
-`
+$ sudo /usr/sbin/sshd
+```
+(sudo password : `lionisalion`)
+
+
+Then you can ssh into the VM by:
+```bash
+ssh -p 8022 joco@localhost
+```
+
+(password : `lionisalion`)
+
+-----
+
+## Using VNC:
+
+Inside VM, type:
+```bash
+$ tigervncserver -SecurityTypes None -xstartup /usr/bin/xterm
+```
+
+outside VM type:
+```bash
+$ ssh -p 8022 -L5903:localhost:5901 joco@localhost
+```
+
+then yet again, outside VM, type (in new terminal):
+```bash
+$ vncviewer -SecurityTypes None :3
+````
