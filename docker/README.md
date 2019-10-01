@@ -1,6 +1,15 @@
 
 #This is a description on how I use docker to develop this repo.
 
+These script files to develop a docker image which can be used for
+Stan and related programming (it is supposed to be something that 
+works out of the box for ML and particalarly for Scala and Stan).
+
+Part of the goal is to compile Stan to JS.
+
+----
+
+Password to root and to joco users: `lionisalion`
 
 About the docker image itself:
 
@@ -11,20 +20,6 @@ things that were needed for this git repo to work,
 for example `node.js` and `python`, and the compilers, 
 for example `em++` or `clang` and whatever environment 
 variables were needed to be set.
-
-I cannot make the image itself public because it contains
-sensitive information (ssh-keys, and other private stuff,
-I am using this image for all sorts of other stuff as well,
-which I don't want to make public).
-
-
-The image itself is stored in docker hub, in a private 
-repo. This means, if you try to pull it, it won't work.
-
-However, the workflow described here can be used with pretty
-much any standard ubuntu based image which you can find
-on Docker Hub, then you can customize the image to your
-own liking, whatever that may be. 
 
 
 Ok, here it comes, an example workflow.
