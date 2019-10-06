@@ -15,7 +15,7 @@ The good stuff:
 
  - `tmux` 
  - `mc` 
- - `git` f
+ - `git`
  - `node.js` 
  - `python`
  - `em++` 
@@ -38,7 +38,7 @@ $ git clone git@github.com:jhegedus42/wellcome_the_lion_on_your_path.git
 $ cd wellcome_the_lion_on_your_path
 $ cd docker
 $ docker pull jhegedus42/welcome_the_lion_on_your_path:0010
-$ ./start.sh
+$ ./simple_start.sh
 $ tmux
 $ mc
 $ sudo /usr/sbin/sshd
