@@ -29,13 +29,15 @@ This list should grow.
 Quickstart:
 
 - Install docker and git.
+- Start docker.
 
 Execute the following commands at shell:
 
 ```bash
 $ git clone git@github.com:jhegedus42/wellcome_the_lion_on_your_path.git
+$ cd wellcome_the_lion_on_your_path
 $ cd docker
-$ docker pull jhegedus42/welcome_the_lion_on_your_path
+$ docker pull jhegedus42/welcome_the_lion_on_your_path:0010
 $ ./start.sh
 $ tmux
 $ mc
