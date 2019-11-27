@@ -1,11 +1,11 @@
 
 # The goal of this project is to create a "good" docker image for ML/"AI" dev
 
-More specifically, the current focus of this project is Stan's implementation of 
-a Hamiltonian Monte Carlo based posterior sampler, which makes fully Bayesian inference
-feasible to tackle real-life, ML problems. 
+More specifically, the current focus of this open source project is Stan's 
+implementation of a Hamiltonian Monte Carlo based posterior sampler. Stan
+makes it feasible to use fully Bayesian inference for tackling real-life ML problems. 
 
-These are script files which are used to develop a docker image that  
+This repo contains script files which are used to develop a docker image that  
 provides a full stack ML dev environment, a turn key solution, to make 
 it easy to use Scala and Stan for ML dev.
 
