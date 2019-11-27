@@ -1,5 +1,5 @@
 
-# The goal of this project is to create a "good" docker image for ML/"AI" dev, more specifically, for Stan's implementation of Hamiltonian Monte Carlo methods, a fully Bayesian approach for ML  
+# The goal of this project is to create a "good" docker image for ML/"AI" dev, more specifically, for using Stan's implementation of Hamiltonian Monte Carlo methods, a fully Bayesian approach for ML  
 
 These script files to develop a docker image which can be used for
 Stan and related programming (it is supposed to be something that 
