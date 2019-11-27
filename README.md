@@ -1,11 +1,14 @@
 
-# The goal of this project is to create a "good" docker image for ML/"AI" dev, more specifically, for using Stan's implementation of Hamiltonian Monte Carlo methods, a fully Bayesian approach for ML  
+# The goal of this project is to create a "good" docker image for ML/"AI" dev
 
-These script files to develop a docker image which can be used for
-Stan and related programming (it is supposed to be something that 
-works out of the box for ML and particalarly for Scala and Stan).
+More specifically, the current focus of this project is Stan's implementation of 
+a Hamiltonian Monte Carlo based posterior sampler, a fully Bayesian approach for ML. 
 
-Part of the goal is to compile Stan to JS.
+These are script files which are used to develop a docker image that  
+provides a full stack ML dev environment, a turn key solution, to make 
+it easy to use Scala and Stan for ML dev.
+
+The original motivation, to create this docker image, was to compile Stan to JS.
 
 ----
 
