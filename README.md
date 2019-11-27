@@ -34,7 +34,7 @@ Quickstart:
 Execute the following commands at shell:
 
 ```bash
-$ git clone git@github.com:jhegedus42/wellcome_the_lion_on_your_path.git
+$ git clone git@github.com:jhegedus42/welcome_the_lion_on_your_path.git
 $ cd wellcome_the_lion_on_your_path
 $ cd docker
 $ docker pull jhegedus42/welcome_the_lion_on_your_path:0010
