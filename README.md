@@ -11,7 +11,7 @@ Part of the goal is to compile Stan to JS.
 
 Password to root and to joco users: `lionisalion`
 
-The good stuff:
+The "foundation" (core tech stack) :
 
  - `tmux` 
  - `mc` 
@@ -24,7 +24,7 @@ The good stuff:
  - `vncserver`
  - `ssh`
 
-This list should grow.
+This list should grow, core tools are added to the image as needed.
 
 Quickstart:
 
